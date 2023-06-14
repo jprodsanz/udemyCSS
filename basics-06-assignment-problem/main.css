@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+
+/*ID SELECTOR*/
+#assignment-instructions {
+    font-family: sans-serif;
+    color: darkblue;
+}
+/*ATTRIBUTE SELECTOR - DON'T  */
+[id] {
+    color: green;
+}
+
+code {
+    font-family: monospace;
+    color: red;
+}
+
+.highlighted-code {
+    color:green;
+}
+
+li + li {
+    background: black;
+    color: white;
+}
+ol > li {
+    background: black;
+    color: white;
+}
