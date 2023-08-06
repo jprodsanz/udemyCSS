@@ -7,7 +7,6 @@
     width: 100vw;
     height: 33vh;
     padding: 10px;
-    margin-top: 2.75rem;
     position: relative;
 }
 
@@ -24,7 +23,7 @@
     left: 3%;
     font-size: 1.6rem;
 }
-@media (min-width: 40rem) {
+@media (min-width: 40rem) and (min-height: 40rem) {
     #product-overview {
         height: 40vh;
         background-position: 50% 25%
