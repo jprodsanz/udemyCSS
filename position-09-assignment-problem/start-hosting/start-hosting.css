@@ -1,5 +1,5 @@
 main {
-    padding-top: 3.5rem;
+    padding-top: 1rem;
 }
 
 .signup-title {
@@ -65,7 +65,7 @@ main {
 .signup-form select.invalid,
 .signup-form :invalid {
     border-color: red !important;
-    background-color: #faacac;
+    background: #faacac;
 }
 
 .signup-form button[type="submit"] {
